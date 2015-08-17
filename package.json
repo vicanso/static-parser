@@ -1,7 +1,7 @@
 {
   "name": "static-parser",
   "description": "parse stylus, coffee and so on.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "vicanso 小墨鱼",
     "email": "vicansocanbico@gmail.com"
@@ -19,6 +19,7 @@
   },
   "readmeFilename": "README.md",
   "devDependencies": {
+    "co": "^4.6.0",
     "gulp": "^3.9.0",
     "gulp-istanbul": "^0.10.0",
     "gulp-jshint": "^1.11.0",
@@ -26,6 +27,7 @@
   },
   "readme": "parse stylus, coffee and so on.",
   "dependencies": {
+    "babel-core": "^5.8.22",
     "nib": "^1.1.0",
     "stylus": "^0.51.1"
   }
